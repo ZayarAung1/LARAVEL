@@ -11,9 +11,9 @@ class TemplateController extends Controller
         return view('mytemplate.about');
     }
     public function contact(){
-        return view('contact');
+        return view('mytemplate.contact');
     }
     public function posts(){
-        return view('posts');
+        return view('mytemplate.posts');
     }
 }
